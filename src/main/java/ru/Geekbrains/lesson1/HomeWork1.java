@@ -28,7 +28,7 @@ public class HomeWork1 {
         System.out.println("Значение типа float = " + f);
         System.out.println("Значение типа boolean = " + g);
         System.out.println("Значение типа char = [" + h + "]");
-    String str = "Как то так)";
+        String str = "Как то так)";
         System.out.println("Значение типа string = " + str);
     }
     public static double Three(double a,double b,double c,double d) {
