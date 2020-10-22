@@ -1,4 +1,7 @@
 package ru.Geekbrains.lesson1;
+
+import java.util.Scanner;
+
 /*
 1. Создать пустой проект в IntelliJ IDEA и прописать метод main();
 2. Создать переменные всех пройденных типов данных, и инициализировать их значения;
@@ -30,9 +33,16 @@ public class HomeWork1 {
         System.out.println("Значение типа char = [" + h + "]");
         String str = "Как то так)";
         System.out.println("Значение типа string = " + str);
+        System.out.println(Three(9,8,4,7));
+        System.out.println(Four(4,5));
     }
     public static double Three(double a,double b,double c,double d) {
         System.out.println("\nЗадание 3.");
+        Scanner in = new Scanner(System.in);
+        a = in.nextDouble();
+        b = in.nextDouble();
+        c = in.nextDouble();
+        d = in.nextDouble();
         return a * (b + (c / d));
     }
     public static boolean Four (int a, int b) {
