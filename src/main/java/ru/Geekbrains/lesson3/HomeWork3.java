@@ -11,15 +11,8 @@ public class HomeWork3 {
             System.out.println("«Повторить игру еще раз? 1 – да / 0 – нет»(1 – повторить, 0 – нет).");
             repeat = scanner.nextInt();
         }
-        while ((repeat < 0) || (repeat > 1)) {
-        }
-        if (repeat == 1) {
-            Game();
-        } else {
             System.out.println("Пока!");
-            return;
         }
-    }
     public static void Game() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ваша задача угадать число!");
